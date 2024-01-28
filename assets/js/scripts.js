@@ -9,7 +9,7 @@ button.addEventListener ("click", function(){
         
         par.innerHTML = "El tamaño del viewport es XS"
     }
-    else if (imput <= 768) {
+     else if (imput <= 768) {
         console.log ("sm")
         par.innerHTML = "El tamaño del viewport es SM"
     }
@@ -17,7 +17,7 @@ button.addEventListener ("click", function(){
         console.log ("md")
         par.innerHTML = "El tamaño del viewport es MD"
     }
-    else if (imput <=1200) {
+     else if (imput <=1200) {
         console.log ("xl")
         par.innerHTML = "El tamaño del viewport es XL"
     }
